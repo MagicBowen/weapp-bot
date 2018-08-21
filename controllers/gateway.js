@@ -1,8 +1,4 @@
 const User = require('../models/user');
-const Survey = require('../models/survey');
-const Statistic = require('../models/statistic');
-const simplify = require('../utils/simplifier')
-const SimplifyResult = require('../models/simplifier')
 const logger = require('../utils/logger').logger('gateway');
 
 const apiHandle = async (req) => {
